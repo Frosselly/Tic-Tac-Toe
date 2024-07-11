@@ -100,7 +100,7 @@ img{
     transform: translateY(5px);
 }
 
-button{
+.controls  button{
     background-color: #3b82f6;
     color: white;
     border: none;
@@ -113,7 +113,7 @@ button{
 }
 
 
-button:hover{
+.controls button:hover{
     border-bottom: #1d4ed8 solid 0.2em;
     transform: translateY(0.4em);
 }

@@ -38,8 +38,8 @@ for(let i = 0; i < lines.length; i++){
         console.log("win win chicken dinner!!!");
     }
 }
-//printBoard(board);
+printBoard(board);
 console.log(board.flat());
-//console.log(board.filter((c) => c !== 'x').length === 0);
+console.log(board.flat().filter((c) => c === '-'));
 
 
